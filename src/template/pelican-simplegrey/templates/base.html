@@ -37,13 +37,13 @@
 	    </div>
 	    {% if PAGES %}
 	      <nav class="pages">
-	        {% for p in PAGES %}
-			  <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+	        {% for title, url in PAGES %}
+			  <a href="{{ SITEURL }}/{{ url }}">{{ title }}</a>
 			  {% if not loop.last %}-{% endif %}
 			{% endfor %}
 	      </nav>
 	    {% endif %}
-		<a href="{{ SITEURL }}" class="title">{{ SITENAME }}</a>
+		<a href="{{ SITEURL }}/index.html" class="title">{{ SITENAME }}</a>
       </header>
 	
 	  <div class="wrapper">
@@ -53,6 +53,17 @@
 		  </div>	
 		  
 		  <div class="sidebar">
+
+	        {% if LINKS %}
+	          <aside>
+	            <h2>Pages</h2>
+	            <ul>
+	              {% for name, link in LINKS %}
+	                <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
+	              {% endfor %}
+	            </ul>
+	          </aside>
+	        {% endif %}
 
 	        <nav>
 	          <h2>Categories</h2>
@@ -73,17 +84,6 @@
 			    </ul>
 			  </aside>
 			{% endif %}
-
-	        {% if LINKS %}
-	          <aside>
-	            <h2>Blogroll</h2>
-	            <ul>
-	              {% for name, link in LINKS %}
-	                <li><a href="{{ link }}">{{ name }}</a></li>
-	              {% endfor %}
-	            </ul>
-	          </aside>
-	        {% endif %}
 
 		  </div>
 

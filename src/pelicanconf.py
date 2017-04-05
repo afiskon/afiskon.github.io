@@ -12,6 +12,13 @@ TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'en'
 
+#DISPLAY_PAGES_ON_MENU = True
+#PAGE_PATHS = ['pages']
+
+#PAGES = (
+#  ("About me", "pages/about.html"),
+#)
+
 # THEME = 'pelican-simplegrey'
 
 # Feed generation is usually not desired when developing
@@ -25,10 +32,10 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_CATEGORY = 'General'
 
-# Blogroll
-LINKS = ()
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('You can modify those links in your config file', '#'),)
+LINKS = (
+  ('About me', 'pages/about.html'),
+#  ('You can modify those links in your config file', '#'),
+)
 
 # Social widget
 SOCIAL = (
