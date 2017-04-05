@@ -12,10 +12,11 @@ TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'pelican-simplegrey'
+# THEME = 'pelican-simplegrey'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'rss/all.xml'
+CATEGORY_FEED_RSS = 'rss/%s.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
