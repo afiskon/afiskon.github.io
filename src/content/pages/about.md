@@ -10,7 +10,7 @@ software developer.
 
 My interests include but are not limited to open source software, functional
 programming, distributed systems, electronics, blogging and
-[podcasting](http://devzen.ru/). I'm a contributor to PostgreSQL, FreeBSD and
+[podcasting](http://devzen.ru/). I'm a contributor to PostgreSQL and
 various other open source projects.
 
 Currently I'm working in [Postgres Professional](https://postgrespro.com/)
