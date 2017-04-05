@@ -2,4 +2,4 @@
 
 set -e
 
-pelican -o .. content
+pelican --relative-urls --ignore-cache -o .. content
