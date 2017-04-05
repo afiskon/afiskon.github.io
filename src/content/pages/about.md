@@ -1,6 +1,6 @@
 Title: About me
 Date: 2017-04-05 16:27
-Modified: 2017-04-05 16:27
+Modified: 2017-04-05 17:24
 Slug: about
 
 <img style="float: right;" src="../static/about.jpg" alt="Aleksander Alekseev" />
