@@ -1,7 +1,7 @@
 Title: PGConf.us 2017 "In-core compression" talk slides
 Category: PostgreSQL
 Date: 2017-04-05 17:40
-Modified: 2017-04-05 17:40
+Modified: 2017-04-05 18:40
 Slug: pgconf2017-talk
 
 On [PGConf.us 2017](https://pgconf.us/conferences/2017) Anastasia Lubennikova
