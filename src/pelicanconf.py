@@ -12,6 +12,8 @@ TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'en'
 
+DISQUS_SITENAME = 'afiskon'
+
 #DISPLAY_PAGES_ON_MENU = True
 #PAGE_PATHS = ['pages']
 
