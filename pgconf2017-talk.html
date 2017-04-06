@@ -79,15 +79,22 @@ Slides for previous years could be found there as well.</p>
 
 	<div class="comments">
 	<h2>Comments !</h2>
-	    <div id="disqus_thread"></div>
-	    <script type="text/javascript">
-	       var disqus_identifier = "pgconf2017-talk.html";
-	       (function() {
-	       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	       dsq.src = 'http://afiskon.disqus.com/embed.js';
-	       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	      })();
-	    </script>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+// this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "pgconf2017-talk.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://afiskon.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
 	</div>
 
 		  </div>	
