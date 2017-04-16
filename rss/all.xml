@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Wed, 05 Apr 2017 18:40:00 +0000</lastBuildDate><item><title>PGConf.us 2017 "In-core compression" talk slides</title><link>https://afiskon.github.io/pgconf2017-talk.html</link><description>&lt;p&gt;On &lt;a href="https://pgconf.us/conferences/2017"&gt;PGConf.us 2017&lt;/a&gt; Anastasia Lubennikova
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Sun, 16 Apr 2017 13:20:00 +0000</lastBuildDate><item><title>TLS: Not Actually Secure?</title><link>https://afiskon.github.io/tls-is-not-secure.html</link><description>&lt;p&gt;Here is a little observation I would like to share.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Chromium says that TLS is secure" src="static/2017/tls-github-pages.png"&gt;&lt;/p&gt;
+&lt;p&gt;Chromium says that connection to my blog is secure. But what means "secure"?
+For instance, can someone conduct a MITM attack - intercept cookies or
+modify pages content? Well, TLS should guard against such attacks. In theory.&lt;/p&gt;
+&lt;p&gt;In practice who owns …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Sun, 16 Apr 2017 13:20:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-16:/tls-is-not-secure.html</guid></item><item><title>PGConf.us 2017 "In-core compression" talk slides</title><link>https://afiskon.github.io/pgconf2017-talk.html</link><description>&lt;p&gt;On &lt;a href="https://pgconf.us/conferences/2017"&gt;PGConf.us 2017&lt;/a&gt; Anastasia Lubennikova
 and I &lt;a href="https://pgconf.us/conferences/2017/program/proposals/274"&gt;presented&lt;/a&gt; a
 talk "In-core compression: how to shrink your database size in several times".
 Slides for this talk are now &lt;a href="https://www.slideshare.net/afiskon/incore-compression-how-to-shrink-your-database-size-in-several-times"&gt;available on SlideShare&lt;/a&gt;:&lt;/p&gt;
