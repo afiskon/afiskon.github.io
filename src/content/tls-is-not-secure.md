@@ -6,7 +6,7 @@ Slug: tls-is-not-secure
 
 Here is a little observation I would like to share.
 
-![Chromium says that TLS is secure](static/2017/tls-github-pages.png)
+![Chromium says that TLS is secure](/static/2017/tls-github-pages.png)
 
 Chromium says that connection to my blog is secure. But what means "secure"?
 For instance, can someone conduct a MITM attack - intercept cookies or
