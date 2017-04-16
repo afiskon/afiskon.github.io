@@ -1,4 +1,4 @@
-Title: PGConf.us 2017 "In-core compression" talk slides
+Title: PGConf.us 2017 "In-core Compression" Talk Slides
 Category: PostgreSQL
 Date: 2017-04-05 17:40
 Modified: 2017-04-05 18:40
