@@ -30,32 +30,15 @@
 
 		  <div role="main" class="content">
 
-
-
-      <article>
-        <h1><a href="./tls-is-not-secure.html">TLS: Not Actually Secure?</a></h1>
-        <p>Here is a little observation I would like to share.</p>
-<p><img alt="Chromium says that TLS is secure" src="/static/2017/tls-github-pages.png"></p>
-<p>Chromium says that connection to my blog is secure. But what means "secure"?
-For instance, can someone conduct a MITM attack - intercept cookies or
-modify pages content? Well, TLS should guard against such attacks. In theory.</p>
-<p>In practice who owns the TLS certificate? GitHub does. I didn't even see this
-certificate. So GitHub can listen and modify the traffic. Turned out, it's
-not "secure" but rather "secure*".</p>
-<p>Same reasoning applies to any cloud hosting, such as AWS, Google Cloud, Azure,
-and others. Nothing prevents Amazon from reading any files on your EC2
-instance, including TLS certificates, and conduct a MITM attack afterwards.</p>
-<p>It's an interesting sensation - to discover that you are living in a dystopia
-where corporations found a brilliant way to crack cryptography and apparently
-no one cares. After all, we all trust Amazon and GitHub. So it's OK, right?</p>
-      </article>
-
-      <hr />
-
         <div>
           <h3>Last posts</h3>
-          <ol class="archive">
-    
+          <ul class="archive">
+
+
+      <li>
+<a href="./tls-is-not-secure.html" rel="bookmark" title="Permalink to TLS: Not Actually Secure?">TLS: Not Actually Secure?</a>
+  <time datetime="2017-04-16T13:20:00+00:00" pubdate>Sun 16 April 2017</time>
+</a>      </li>
 
 
       <li>
@@ -70,7 +53,7 @@ no one cares. After all, we all trust Amazon and GitHub. So it's OK, right?</p>
 </a>      </li>
 
 
-          </ol>
+          </ul>
         </div>
 
 		  </div>	
