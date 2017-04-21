@@ -24,7 +24,7 @@ instance, including TLS certificates, and conduct a MITM attack afterwards.
 It's an interesting sensation - to discover that you are living in a dystopia
 where <del>corporations found a brilliant way to crack cryptography and</del>
 <del>apparently no one cares</del> [1] almost everyone willingly shares their
-TLS certificates without realizing this. After all, we all trust Amazon and
+TLS certificates without realizing that. After all, we all trust Amazon and
 GitHub. So it's OK, right?
 
 Update: [1] As [rightly noted][u1] by Jonathan Hilgeman this was not very accurate.
