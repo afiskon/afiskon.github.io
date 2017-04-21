@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Aleksander Alekseev's blog - General</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Tue, 18 Apr 2017 08:50:00 +0000</lastBuildDate><item><title>It Seems That My First Quadcopter Is Ready</title><link>https://afiskon.github.io/first-quadcopter.html</link><description>&lt;p&gt;OK, it looks like I've finished assembling and configuring my first
-quadcopter. At least, it breaks away from a floor and seems to do it
+quadcopter. At least, it takes off the floor and seems to do it
 smoothly (finally!). Here is a short video:&lt;/p&gt;
 &lt;div style="position:relative;height:0;padding-bottom:56.25%"&gt;&lt;iframe src="https://www.youtube.com/embed/_3B-indZPFo?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 
-&lt;p&gt;Now I only have to wait for a proper weather. Currently in Moscow it's about
--2 C (29 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Tue, 18 Apr 2017 08:50:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-18:/first-quadcopter.html</guid></item><item><title>TLS: Not Actually Secure?</title><link>https://afiskon.github.io/tls-is-not-secure.html</link><description>&lt;p&gt;Here is a little observation I would like to share.&lt;/p&gt;
+&lt;p&gt;Now I only have to wait for appropriate weather. Currently in Moscow it's about
+-2 C (29 F) and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Tue, 18 Apr 2017 08:50:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-18:/first-quadcopter.html</guid></item><item><title>TLS: Not Actually Secure?</title><link>https://afiskon.github.io/tls-is-not-secure.html</link><description>&lt;p&gt;Here is a little observation I would like to share.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Chromium says that TLS is secure" src="/static/2017/tls-github-pages.png"&gt;&lt;/p&gt;
-&lt;p&gt;Chromium says that connection to my blog is secure. But what means "secure"?
-For instance, can someone conduct a MITM attack - intercept cookies or
-modify pages content? Well, TLS should guard against such attacks. In theory.&lt;/p&gt;
-&lt;p&gt;In practice who owns …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Sun, 16 Apr 2017 13:20:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-16:/tls-is-not-secure.html</guid></item><item><title>Hello, World!</title><link>https://afiskon.github.io/hello-world.html</link><description>&lt;p&gt;This is a test blog post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Tue, 04 Apr 2017 13:04:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-04:/hello-world.html</guid></item></channel></rss>
+&lt;p&gt;Chromium says that the connection to my blog is secure. However, what does
+"secure" mean? For instance, can someone conduct a MITM attack - intercept
+cookies or modify pages content? Well, TLS should guard against such attacks.
+In theory.&lt;/p&gt;
+&lt;p&gt;In practice …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Sun, 16 Apr 2017 13:20:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-16:/tls-is-not-secure.html</guid></item><item><title>Hello, World!</title><link>https://afiskon.github.io/hello-world.html</link><description>&lt;p&gt;This is a test blog post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Tue, 04 Apr 2017 13:04:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-04:/hello-world.html</guid></item></channel></rss>

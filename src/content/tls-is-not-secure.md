@@ -8,9 +8,10 @@ Here is a little observation I would like to share.
 
 ![Chromium says that TLS is secure](/static/2017/tls-github-pages.png)
 
-Chromium says that connection to my blog is secure. But what means "secure"?
-For instance, can someone conduct a MITM attack - intercept cookies or
-modify pages content? Well, TLS should guard against such attacks. In theory.
+Chromium says that the connection to my blog is secure. However, what does
+"secure" mean? For instance, can someone conduct a MITM attack - intercept
+cookies or modify pages content? Well, TLS should guard against such attacks.
+In theory.
 
 In practice who owns the TLS certificate? GitHub does. I didn't even see this
 certificate. So GitHub can listen and modify the traffic. Turned out, it's
