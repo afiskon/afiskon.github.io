@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 21 Apr 2017 21:04:00 +0000</lastBuildDate><item><title>How To Uninstall Ubuntu Touch And Restore Android</title><link>https://afiskon.github.io/how-to-restore-android.html</link><description>&lt;p&gt;Hi! Today I would like to share a small cheat sheet on how to unistall Ubuntu
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 28 Apr 2017 14:00:00 +0000</lastBuildDate><item><title>Quality Assurance in PostgreSQL (Slides)</title><link>https://afiskon.github.io/testcon2017-talk.html</link><description>&lt;p&gt;My colleague Anastasia Lubennikova and I were invited to the conference
+&lt;a href="http://testconf.ru/"&gt;TestCon Moscow 2017&lt;/a&gt; to tell how PostgreSQL is developed and tested.
+In case you are interested in this topic here are the slides:&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/irpWWe9fSsphif" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;There was a video camera in the room so I got a strong feeling that the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Fri, 28 Apr 2017 14:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-28:/testcon2017-talk.html</guid></item><item><title>How To Uninstall Ubuntu Touch And Restore Android</title><link>https://afiskon.github.io/how-to-restore-android.html</link><description>&lt;p&gt;Hi! Today I would like to share a small cheat sheet on how to unistall Ubuntu
 Touch and restore Android on your smartphone. &lt;/p&gt;
 &lt;p&gt;Firstly, find and download a proper Android build from &lt;a href="https://developers.google.com/android/images"&gt;here&lt;/a&gt;. In my case it
 was occam-lmy48t-factory-c43c7cfd.zip since my smarphone is Nexus 4.&lt;/p&gt;
