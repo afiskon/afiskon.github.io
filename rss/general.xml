@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog - General</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 21 Apr 2017 21:04:00 +0000</lastBuildDate><item><title>How To Uninstall Ubuntu Touch And Restore Android</title><link>https://afiskon.github.io/how-to-restore-android.html</link><description>&lt;p&gt;Hi! Today I would like to share a small cheat sheet on how to unistall Ubuntu
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog - General</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 21 Apr 2017 21:04:00 +0000</lastBuildDate><item><title>How To Uninstall Ubuntu Touch And Restore Android</title><link>https://afiskon.github.io/how-to-restore-android.html</link><description>&lt;p&gt;Hi! Today I would like to share a small cheat sheet on how to uninstall Ubuntu
 Touch and restore Android on your smartphone. &lt;/p&gt;
 &lt;p&gt;Firstly, find and download a proper Android build from &lt;a href="https://developers.google.com/android/images"&gt;here&lt;/a&gt;. In my case it
 was occam-lmy48t-factory-c43c7cfd.zip since my smarphone is Nexus 4.&lt;/p&gt;

@@ -4,21 +4,21 @@ Date: 2017-04-21 21:04
 Modified: 2017-04-21 21:04
 Slug: how-to-restore-android
 
-Hi! Today I would like to share a small cheat sheet on how to unistall Ubuntu
+Hi! Today I would like to share a small cheat sheet on how to uninstall Ubuntu
 Touch and restore Android on your smartphone. 
 
 Firstly, find and download a proper Android build from [here][u1]. In my case it
 was occam-lmy48t-factory-c43c7cfd.zip since my smarphone is Nexus 4.
 
 Secondly, make sure you have `adb` tool installed. I personnaly use Arch Linux
-where this tool is a part of android-tools package:
+where this tool is part of android-tools package:
 
 ```
 $ sudo pacman -S android-tools
 ```
 
 Now on your smarphone go to System Settings -> About -> Developer Mode and enable
-developer mode. Make sure your smarphone is visiable in `adb devices`:
+the developer mode. Make sure your smarphone is visiable in `adb devices`:
 
 ```
 $ adb devices
