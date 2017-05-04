@@ -2,13 +2,13 @@
 <html lang="">	
 <head>
 	<meta charset="utf-8"/>
-	<title>Hello, World! - Aleksander Alekseev's blog</title>	
+	<title>GCC: How To Suppress a Warning in a Single Line of Code - Aleksander Alekseev's blog</title>	
 	<meta name="author" content="Aleksander Alekseev">
 	<meta name="google-site-verification" content="a9megyQpIKwFC37I0_jjkPU4f93TqxHP4FUAvwQ_rqA" />
 	<meta name="yandex-verification" content="c12e72bb61f3c046" />
 	
 
-	<meta name="description" content="This is a test blog post.">
+	<meta name="description" content="TIL that GCC allows to suppress a given type of warnings in a single line of code. Here is an example: InMemoryStorage::InMemoryStorage() { if(pthread_rwlock_init(&_rwlock, NULL) != 0) throw std::runtime_error("pthread_rwlock_init() failed"); } InMemoryStorage::~InMemoryStorage() { if(pthread_rwlock_destroy(&_rwlock) != 0) { // suppress 'throw will always call terminate() [-Wterminate]' #pragma GCC diagnostic push …">
 
 
 	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
@@ -34,13 +34,36 @@
 		  <div role="main" class="content">
 	<article class="full">
 			
-		<h1>Hello, World!</h1>
+		<h1>GCC: How To Suppress a Warning in a Single Line of Code</h1>
 		
 <div class="metadata">
-  <time datetime="2017-04-04T13:04:00+00:00" pubdate>Tue 04 April 2017</time>
+  <time datetime="2017-05-04T17:45:00+00:00" pubdate>Thu 04 May 2017</time>
   in <a href="./category/general.html">General</a>
 </div>		
-		<p>This is a test blog post.</p>	
+		<p>TIL that GCC <a href="https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Pragmas.html">allows</a> to suppress a given type of warnings in a single line of
+code. Here is an example:</p>
+<div class="highlight"><pre><span></span><span class="n">InMemoryStorage</span><span class="o">::</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">pthread_rwlock_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">_rwlock</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;pthread_rwlock_init() failed&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">InMemoryStorage</span><span class="o">::~</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">pthread_rwlock_destroy</span><span class="p">(</span><span class="o">&amp;</span><span class="n">_rwlock</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// suppress &#39;throw will always call terminate() [-Wterminate]&#39;</span>
+        <span class="cp">#pragma GCC diagnostic push</span>
+        <span class="cp">#pragma GCC diagnostic ignored &quot;-Wterminate&quot;</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;pthread_rwlock_destroy() failed&quot;</span><span class="p">);</span>
+        <span class="cp">#pragma GCC diagnostic pop</span>
+    <span class="p">}</span>   
+<span class="p">}</span>
+</pre></div>
+
+
+<p>I think that using this feature was justified in this specific case. Thank you,
+GCC, for warning me that throwing an exception in a destructor will cause a
+program to terminate. However it's still looks like something I want because if
+<code>pthread_rwlock_destroy</code> fails it means that most likely something is very wrong
+(memory corruption or something like this).</p>	
 
 	</article>
 
@@ -56,7 +79,7 @@
 <script>
 var disqus_config = function () {
 // this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "hello-world.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = "gcc-suppress-single-warning.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() {
