@@ -61,9 +61,9 @@ code. Here is an example:</p>
 
 <p>I think that using this feature was justified in this specific case. Thank you,
 GCC, for warning me that throwing an exception in a destructor will cause a
-program to terminate. However it's still looks like something I want because if
-<code>pthread_rwlock_destroy</code> fails it means that most likely something is very wrong
-(memory corruption or something like this).</p>	
+program to terminate. However, it still looks like something I want. If
+<code>pthread_rwlock_destroy</code> fails, it means that something is most likely to be
+very wrong (memory corruption or something like this).</p>	
 
 	</article>
 
