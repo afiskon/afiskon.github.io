@@ -72,7 +72,7 @@ conference?
 [ak]: http://akorotkov.github.io/
 [ts]: http://sigaev.ru/
 [zl]: http://www.zalando.com/
-[dm]: https://wiki.postgresql.org/wiki/PgCon\_2017\_Developer\_Meeting
+[dm]: https://wiki.postgresql.org/wiki/PgCon_2017_Developer_Meeting
 [src]: https://www.facebook.com/groups/postgresql/permalink/601049913425093/
 [cws]: http://www.pgcon.org/2017/schedule/events/1048.en.html
 [ext]: http://www.pgcon.org/2017/schedule/events/1037.en.html
