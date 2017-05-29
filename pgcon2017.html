@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="">	
+<head>
+	<meta charset="utf-8"/>
+	<title>Back from PGCon 2017 - Aleksander Alekseev's blog</title>	
+	<meta name="author" content="Aleksander Alekseev">
+	<meta name="google-site-verification" content="a9megyQpIKwFC37I0_jjkPU4f93TqxHP4FUAvwQ_rqA" />
+	<meta name="yandex-verification" content="c12e72bb61f3c046" />
+	
+
+	<meta name="description" content="Last week my colleagues Alexander Korotlkov, Teodor Sigaev, Oleg Ivanov and I have been in Ottawa, Canada on the PGCon 2017 conference. Also Alexander Kukushkin (Zalando) has joined and spent a lot of time with us. I'm still having a jet lag (in my case second day is always the …">
+
+
+	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
+	<link rel="stylesheet" href="./theme/css/main.css?20170416" type="text/css" />
+		
+
+    <link href="https://afiskon.github.io/rss/all.xml" type="application/rss+xml" rel="alternate" title="Aleksander Alekseev's blog RSS Feed" />
+</head>
+	
+<body>
+
+    <div class="container">
+	  
+	  <header role="banner">
+	    <div class="feeds">
+            <a href="./rss/all.xml" rel="alternate"><img src="./theme/images/icons/feed-32px.png" alt="rss feed"/></a>
+	    </div>
+		<a href="./index.html" class="title">Aleksander Alekseev's blog</a>
+      </header>
+	
+	  <div class="wrapper">
+
+		  <div role="main" class="content">
+	<article class="full">
+			
+		<h1>Back from PGCon 2017</h1>
+		
+<div class="metadata">
+  <time datetime="2017-05-29T14:00:00+00:00" pubdate>Mon 29 May 2017</time>
+  in <a href="./category/postgresql.html">PostgreSQL</a>
+</div>		
+		<p>Last week my colleagues <a href="http://akorotkov.github.io/">Alexander Korotlkov</a>, <a href="http://sigaev.ru/">Teodor Sigaev</a>, Oleg
+Ivanov and I have been in Ottawa, Canada on the <a href="http://www.pgcon.org/2017/">PGCon 2017</a> conference.
+Also Alexander Kukushkin (<a href="http://www.zalando.com/">Zalando</a>) has joined and spent a lot of time
+with us. I'm still having a jet lag (in my case second day is always the worst
+one) so I'm having some difficulties poetically describing how great it was,
+but I'll try.</p>
+<p><img alt="Canada 2017" src="/static/2017/canada2017.jpg"></p>
+<p><em>Alexander (back), Teodor (right), Oleg (front) and I (left) in Ottawa.</em></p>
+<p>For me the most interesting part was to observe how open source community works
+offline (developer meeting, unconference, ...) and to meet PostgreSQL
+developers in person. Somehow it makes difference if you know that an email in
+pgsql-hackers@ was sent not by just someone whose name doesn't tell you a lot,
+but a real person you know, at least a little bit. Talks also were great.  I
+personally most enjoyed <a href="http://www.pgcon.org/2017/schedule/events/1048.en.html">Corruption War Stories</a> by Christophe Pettus and
+<a href="http://www.pgcon.org/2017/schedule/events/1037.en.html">So You Want To Make An Extension?</a> by Keith Fiske.</p>
+<p><img alt="PostgreSQL Dev Meeting 2017" src="/static/2017/devmeeting2017.jpg"></p>
+<p><em><a href="https://wiki.postgresql.org/wiki/PgCon\_2017\_Developer\_Meeting">PGCon 2017 Developer Meeting 2017</a> attendees. Photo by Dave Page.
+<a href="https://www.facebook.com/groups/postgresql/permalink/601049913425093/">Source</a>.</em></p>
+<p>I don't know for sure whose decision was to invite me on the developer meeting.
+Maybe it's just an imposter syndrome (probably not), but I'm not considering
+myself such a significant contributor to PostgreSQL. Anyway I would like to
+thank that person or persons whoever he is or they are. I hope I didn't disturb
+everyone too much ;)</p>
+<p>On the developer meeting and later on the unconference I tried to figure out
+whether it's possible to make PostgreSQL upgradable between major releases
+without a downtime. The reason why I'm so interested in this particular topic is
+that guys from <a href="https://yandex.com/company/">Yandex</a> told me that this is probably the biggest problem
+with PostgreSQL for them. <a href="https://simply.name/upgrading-postgres-to-9.4.html">Here</a> you can find a detailed post by Vladimir
+Borodin on how they do an upgrade currently.</p>
+<p>There was reached a consensus that despite the fact that it could be done in
+theory the corresponding amount of work will be enormous, especially for a
+relatively small open source community. To solve this problem every newer
+version of PostgreSQL have to be backward compatible with catalog schema, tuples
+format, pages format and replication protocol of the previous version. This
+backward compatibility should be maintained and tested on every combination of
+platform, compiler and configuration flags supported by PostgreSQL.
+Concentrating on solving this problem by logical replication introduced in
+PostgreSQL 10 seems to be much more practical.</p>
+<p>Also I did a lightning talk "Data recovery using pg_filedump". Here are the
+slides:</p>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mJ9av8zXwUlWwD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+<p>Unfortunately not many PostgreSQL users know about <a href="https://git.postgresql.org/gitweb/?p=pg_filedump.git;a=summary">pg_filedump utility</a>
+and that it's capable of restoring data in format suitable for using in COPY FROM
+queries (the feature I'm the one to blame for). TOAST is currently not supported
+but it should work for everything else including in-page compression. If you
+don't know the schema of the database you can restore it using pg_filedump as
+well. All this works even if PostgreSQL instance can't start and data is
+partially corrupted. I hope that you'll never need this knowledge, but according
+to Christophe's talk I mentioned above on rare occasions a tool like this can be
+helpful.</p>
+<p>And have you been on PGCon this year and if so what's your impression on the
+conference?</p>	
+
+	</article>
+
+    <p>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="" data-lang="en" data-size="large" data-related="">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</p>
+
+	<div class="comments">
+	<h2>Comments</h2>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+// this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "pgcon2017.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://afiskon.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+	</div>
+
+		  </div>	
+		  
+		  <div class="sidebar">
+
+	          <aside>
+	            <h2>Pages</h2>
+	            <ul>
+	                <li><a href="./pages/about.html">About me</a></li>
+	            </ul>
+	          </aside>
+
+	          <aside>
+	            <h2>Search</h2>
+
+				<form method="get" id="searchform"
+				 action="https://encrypted.google.com/search">
+				<div>
+				<input type="hidden" name="as_sitesearch" value="afiskon.github.io" />
+				<input type="text" id="s" name="as_q" value="" />
+				<input type="submit" id="searchsubmit"
+				 value="&nbsp;&nbsp;Search&nbsp;&nbsp;" />
+				</div>
+				</form>
+
+	          </aside>
+
+	        <nav>
+	          <h2>Categories</h2>
+	          <ul>
+	              <li ><a href="./category/general.html">General</a></li>
+	              <li class="active"><a href="./category/postgresql.html">PostgreSQL</a></li>
+	          </ul>
+	        </nav>
+
+	          <aside>
+	          <h2>Social</h2>
+			    <ul class="social">
+				  <li><a href="https://twitter.com/afiskon">Twitter</a><i></i></li>
+				  <li><a href="https://github.com/afiskon">GitHub</a><i></i></li>
+			    </ul>
+			  </aside>
+
+		  </div>
+
+	  </div>
+
+      <footer>
+		<p role="contentinfo">
+		  © 2017 Aleksander Alekseev - Proudly powered by <a href="https://blog.getpelican.com/">pelican</a>. Theme <a href="https://github.com/fle/pelican-simplegrey">pelican-simplegrey</a>.
+    	</p>
+
+	  </footer>	
+
+	</div>
+	
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11216228-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
