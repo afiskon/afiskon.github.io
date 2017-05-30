@@ -15,8 +15,8 @@ but I'll try.
 
 _Alexander (back), Teodor (right), Oleg (front) and I (left) in Ottawa._
 
-For me the most interesting part was to observe how open source community works
-offline (developer meeting, unconference, ...) and to meet PostgreSQL
+For me the most interesting part was to observe how the open source community
+works offline (developer meeting, unconference, ...) and to meet PostgreSQL
 developers in person. Somehow it makes difference if you know that an email in
 pgsql-hackers@ was sent not by just someone whose name doesn't tell you a lot,
 but a real person you know, at least a little bit. Talks also were great.  I
