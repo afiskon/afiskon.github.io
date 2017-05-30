@@ -28,7 +28,7 @@ personally most enjoyed [Corruption War Stories][cws] by Christophe Pettus and
 _[PGCon 2017 Developer Meeting 2017][dm] attendees. Photo by Dave Page.
 [Source][src]._
 
-I don't know for sure whose decision was to invite me on the developer meeting.
+I don't know for sure whose decision was to invite me to the developer meeting.
 Maybe it's just an imposter syndrome (probably not), but I'm not considering
 myself such a significant contributor to PostgreSQL. Anyway I would like to
 thank that person or persons whoever he is or they are. I hope I didn't disturb
