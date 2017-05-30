@@ -38,7 +38,7 @@ On the developer meeting and later on the unconference I tried to figure out
 whether it's possible to make PostgreSQL upgradable between major releases
 without a downtime. The reason why I'm so interested in this particular topic is
 that guys from [Yandex][ya] told me that this is probably the biggest problem
-with PostgreSQL for them. [Here][upg] you can find a detailed post by Vladimir
+with PostgreSQL they have. [Here][upg] you can find a detailed post by Vladimir
 Borodin on how they do an upgrade currently.
 
 There was reached a consensus that despite the fact that it could be done in
