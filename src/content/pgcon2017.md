@@ -4,7 +4,7 @@ Date: 2017-05-29 14:00
 Modified: 2017-05-29 14:00
 Slug: pgcon2017
 
-Last week my colleagues [Alexander Korotlkov][ak], [Teodor Sigaev][ts], Oleg
+Last week my colleagues [Alexander Korotkov][ak], [Teodor Sigaev][ts], Oleg
 Ivanov and I have been in Ottawa, Canada on the [PGCon 2017][pgcon] conference.
 Also Alexander Kukushkin ([Zalando][zl]) has joined and spent a lot of time
 with us. I'm still having a jet lag (in my case second day is always the worst
