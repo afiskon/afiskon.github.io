@@ -27,7 +27,7 @@ Christophe Pettus and [So You Want To Make An Extension?][ext] by Keith Fiske.
 _[PGCon 2017 Developer Meeting 2017][dm] attendees. Photo by Dave Page.
 [Source][src]._
 
-I don't know for sure whose it decision was to invite me to the developer
+I don't know for sure whose decision it was to invite me to the developer
 meeting.  Maybe it's just an imposter syndrome (probably not), but I'm not
 considering myself such a significant contributor to PostgreSQL. Anyway I would
 like to thank that person or persons whoever he is or they are. I hope I didn't
