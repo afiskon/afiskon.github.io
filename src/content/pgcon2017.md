@@ -30,7 +30,7 @@ _[PGCon 2017 Developer Meeting 2017][dm] attendees. Photo by Dave Page.
 I don't know for sure whose decision it was to invite me to the developer
 meeting.  Maybe it's just an imposter syndrome (probably not), but I'm not
 considering myself such a significant contributor to PostgreSQL. Anyway I would
-like to thank that person or persons whoever he is or they are. I hope I didn't
+like to thank that person or persons whoever he/she is or they are. I hope I didn't
 disturb anyone too much ;)
 
 At the developer meeting and later at the unconference I tried to figure out
