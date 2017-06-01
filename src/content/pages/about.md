@@ -3,10 +3,11 @@ Date: 2017-04-05 16:27
 Modified: 2017-04-05 17:24
 Slug: about
 
-<img style="float: right;" src="/static/about.jpg" alt="Aleksander Alekseev" />
 
 Hi! My name is Aleksander Alekseev. I'm living in Moscow, Russia and I'm a
 software developer.
+
+![Aleksander Alekseev](/static/about.jpg)
 
 My interests include but are not limited to open source software, functional
 programming, distributed systems, electronics, blogging and
