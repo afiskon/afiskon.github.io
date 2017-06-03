@@ -1,7 +1,7 @@
 Title: What's new in ZSON v1.1?
 Category: PostgreSQL
-Date: 2017-06-02 16:00
-Modified: 2017-06-02 16:00
+Date: 2017-06-03 07:30
+Modified: 2017-06-03 07:30
 Slug: zson-v1-1
 
 ZSON v1.1 was released recently. Changes since v1.0:
@@ -21,10 +21,10 @@ Craveiro, Madis Lõhmus, Pavel Luzanov.
 
 [ZSON][zson] is a PostgreSQL extension for transparent JSONB compression. The
 compression is based on the common dictionary of strings that are frequently
-used in JSONB documents. In some cases ZSON can significantly reduce the
-database size and improve the overall performance. For more details see [this
-benchmark][bm]. ZSON is an open source software distributed under the MIT
-license.
+used in the JSONB documents of the specific database. In some cases ZSON can
+significantly reduce the database size and improve the overall performance. For
+more details see [this benchmark][bm]. ZSON is an open source software
+distributed under the MIT license.
 
 [p1]: https://github.com/postgrespro/zson/commit/a0d4201e0e3d021d9384a5d0a58c176be4c00735
 [p2]: https://github.com/postgrespro/zson/commit/e176165bcff308dbeb02f16278f3b56f3f6e02d8

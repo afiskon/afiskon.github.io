@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="">	
+<head>
+	<meta charset="utf-8"/>
+	<title>What's new in ZSON v1.1? - Aleksander Alekseev's blog</title>	
+	<meta name="author" content="Aleksander Alekseev">
+	<meta name="google-site-verification" content="a9megyQpIKwFC37I0_jjkPU4f93TqxHP4FUAvwQ_rqA" />
+	<meta name="yandex-verification" content="c12e72bb61f3c046" />
+	
+
+	<meta name="description" content="ZSON v1.1 was released recently. Changes since v1.0: Bugfix: zson_dict table used to be excluded from backups created via pg_dump utility (see a0d4201e and e176165b). Reported by Pavel Luzanov; Bugfix: make installcheck used to fail on MacOS (see b3a70915). Reported by Oleg Bartunov; Grammar fixes in the documentation …">
+
+
+	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
+	<link rel="stylesheet" href="./theme/css/main.css?20170416" type="text/css" />
+		
+
+    <link href="https://afiskon.github.io/rss/all.xml" type="application/rss+xml" rel="alternate" title="Aleksander Alekseev's blog RSS Feed" />
+</head>
+	
+<body>
+
+    <div class="container">
+	  
+	  <header role="banner">
+	    <div class="feeds">
+            <a href="./rss/all.xml" rel="alternate"><img src="./theme/images/icons/feed-32px.png" alt="rss feed"/></a>
+	    </div>
+		<a href="./index.html" class="title">Aleksander Alekseev's blog</a>
+      </header>
+	
+	  <div class="wrapper">
+
+		  <div role="main" class="content">
+	<article class="full">
+			
+		<h1>What's new in ZSON v1.1?</h1>
+		
+<div class="metadata">
+  <time datetime="2017-06-03T07:30:00+00:00" pubdate>Sat 03 June 2017</time>
+  in <a href="./category/postgresql.html">PostgreSQL</a>
+</div>		
+		<p>ZSON v1.1 was released recently. Changes since v1.0:</p>
+<ul>
+<li>Bugfix: zson_dict table used to be excluded from backups created via pg_dump
+  utility (see <a href="https://github.com/postgrespro/zson/commit/a0d4201e0e3d021d9384a5d0a58c176be4c00735">a0d4201e</a> and <a href="https://github.com/postgrespro/zson/commit/e176165bcff308dbeb02f16278f3b56f3f6e02d8">e176165b</a>). Reported by Pavel Luzanov;</li>
+<li>Bugfix: <code>make installcheck</code> used to fail on MacOS (see <a href="https://github.com/postgrespro/zson/commit/b3a709153f132c6a586cf27fcbd4024a62cf7cba">b3a70915</a>).
+  Reported by Oleg Bartunov;</li>
+<li>Grammar fixes in the documentation (see <a href="https://github.com/postgrespro/zson/commit/ceb9d5ee92bbaaaf129698c70a41662dd97b8e67">ceb9d5ee</a> and <a href="https://github.com/postgrespro/zson/commit/13cd5a69cf5a7821202fa9bc2620d85140095f22">13cd5a69</a>).
+  Maria Popova;</li>
+<li>And various minor changes;</li>
+</ul>
+<p>The following people contributed to this release one way or another (in random
+order): Peder Rindal Refsnes, Maria Popova, Oleg Bartunov, Maxim Milyutin,
+Dmitriy Olshevskiy, madisonleavo, Vyacheslav Semushin, Sergey Bronnikov, Marco
+Craveiro, Madis Lõhmus, Pavel Luzanov.</p>
+<p><a href="https://github.com/postgrespro/zson">ZSON</a> is a PostgreSQL extension for transparent JSONB compression. The
+compression is based on the common dictionary of strings that are frequently
+used in the JSONB documents of the specific database. In some cases ZSON can
+significantly reduce the database size and improve the overall performance. For
+more details see <a href="https://github.com/postgrespro/zson/blob/master/docs/benchmark.md">this benchmark</a>. ZSON is an open source software
+distributed under the MIT license.</p>	
+
+	</article>
+
+    <p>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="" data-lang="en" data-size="large" data-related="">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</p>
+
+	<div class="comments">
+	<h2>Comments</h2>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+// this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "zson-v1-1.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://afiskon.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+	</div>
+
+		  </div>	
+		  
+		  <div class="sidebar">
+
+	          <aside>
+	            <h2>Pages</h2>
+	            <ul>
+	                <li><a href="./pages/about.html">About me</a></li>
+	            </ul>
+	          </aside>
+
+	          <aside>
+	            <h2>Search</h2>
+
+				<form method="get" id="searchform"
+				 action="https://encrypted.google.com/search">
+				<div>
+				<input type="hidden" name="as_sitesearch" value="afiskon.github.io" />
+				<input type="text" id="s" name="as_q" value="" />
+				<input type="submit" id="searchsubmit"
+				 value="&nbsp;&nbsp;Search&nbsp;&nbsp;" />
+				</div>
+				</form>
+
+	          </aside>
+
+	        <nav>
+	          <h2>Categories</h2>
+	          <ul>
+	              <li ><a href="./category/general.html">General</a></li>
+	              <li class="active"><a href="./category/postgresql.html">PostgreSQL</a></li>
+	          </ul>
+	        </nav>
+
+	          <aside>
+	          <h2>Social</h2>
+			    <ul class="social">
+				  <li><a href="https://twitter.com/afiskon">Twitter</a><i></i></li>
+				  <li><a href="https://github.com/afiskon">GitHub</a><i></i></li>
+			    </ul>
+			  </aside>
+
+		  </div>
+
+	  </div>
+
+      <footer>
+		<p role="contentinfo">
+		  © 2017 Aleksander Alekseev - Proudly powered by <a href="https://blog.getpelican.com/">pelican</a>. Theme <a href="https://github.com/fle/pelican-simplegrey">pelican-simplegrey</a>.
+    	</p>
+
+	  </footer>	
+
+	</div>
+	
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11216228-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
