@@ -6,8 +6,9 @@ Slug: zson-v1-1
 
 ZSON v1.1 was released recently. Changes since v1.0:
 
-* Bugfix: zson\_dict table used to be excluded from backups created via pg\_dump
-  utility (see [a0d4201e][p1] and [e176165b][p2]). Reported by Pavel Luzanov;
+* Bugfix: the zson\_dict table used to be excluded from backups created via
+  pg\_dump utility (see [a0d4201e][p1] and [e176165b][p2]). Reported by Pavel
+  Luzanov;
 * Bugfix: `make installcheck` used to fail on MacOS (see [b3a70915][p3]).
   Reported by Oleg Bartunov;
 * Grammar fixes in the documentation (see [ceb9d5ee][p4] and [13cd5a69][p5]).
