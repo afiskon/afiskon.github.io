@@ -15,7 +15,7 @@ invited.  Oleg's talk was [Postgres vs Mongo][pvm] and Alexander's --- [Our
 answer to Uber][atu].
 
 RIT is one of two annual technical conferences organized by [Oleg Bunin][ob] and
-his company [Ontico][ontico]. The second conference is [Higload][hl]. Every
+[Ontico][ontico] company. The second conference is [Higload][hl]. Every
 conference gather about 2500 people exclusive of online viewers.
 
 [rit]: http://ritfest.ru/
