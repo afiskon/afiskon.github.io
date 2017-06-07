@@ -1,7 +1,7 @@
 Title: Full Text Search in PostgreSQL (Slides)
 Category: PostgreSQL
-Date: 2017-06-07 12:30
-Modified: 2017-06-07 12:30
+Date: 2017-06-07 17:00
+Modified: 2017-06-07 17:00
 Slug: rit2017-talk
 
 Recently I've been invited to the [RIT 2017][rit] (Russian Internet
