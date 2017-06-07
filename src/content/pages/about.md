@@ -4,8 +4,8 @@ Modified: 2017-04-05 17:24
 Slug: about
 
 
-Hi! My name is Aleksander Alekseev. I'm living in Moscow, Russia and I'm a
-software developer.
+Hi! My name is Aleksander Alekseev. I live in Moscow, Russia and I'm a software
+developer.
 
 ![Aleksander Alekseev](/static/about.jpg)
 

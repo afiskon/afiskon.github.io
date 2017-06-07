@@ -11,8 +11,8 @@ ZSON v1.1 was released recently. Changes since v1.0:
   Luzanov;
 * Bugfix: `make installcheck` used to fail on MacOS (see [b3a70915][p3]).
   Reported by Oleg Bartunov;
-* Grammar fixes in the documentation (see [ceb9d5ee][p4] and [13cd5a69][p5]).
-  Maria Popova;
+* Grammar corrections in the documentation (see [ceb9d5ee][p4] and
+  [13cd5a69][p5]).  Maria Popova;
 * And various minor changes;
 
 The following people contributed to this release one way or another (in random
@@ -22,7 +22,7 @@ Craveiro, Madis Lõhmus, Pavel Luzanov.
 
 [ZSON][zson] is a PostgreSQL extension for transparent JSONB compression. The
 compression is based on the common dictionary of strings that are frequently
-used in the JSONB documents of the specific database. In some cases ZSON can
+used in JSONB documents of the specific database. In some cases ZSON can
 significantly reduce the database size and improve the overall performance. For
 more details see [this benchmark][bm]. ZSON is an open source software
 distributed under the MIT license.
