@@ -14,14 +14,14 @@ My colleagues [Oleg Bartunov][ob] and [Alexander Korotkov][ak] also have been
 invited.  Oleg's talk was [Postgres vs Mongo][pvm] and Alexander's - [Our
 answer to Uber][atu].
 
-RIT is one of two annual technical conferences organized by [Oleg Bunin][ob] and
-[Ontico][ontico] company. The second conference is [Higload][hl]. Every
+RIT is one of two annual technical conferences organized by [Oleg Bunin][bunin]
+and [Ontico][ontico] company. The second conference is [Higload][hl]. Every
 conference gather about 2500 people not counting online viewers.
 
 [rit]: http://ritfest.ru/
 [ob]: http://obartunov.livejournal.com/
 [ak]: http://akorotkov.github.io/
-[ob]: https://habrahabr.ru/company/oleg-bunin/
+[bunin]: https://habrahabr.ru/company/oleg-bunin/
 [ontico]: http://ontico.ru/
 [pvm]: http://backendconf.ru/2017/abstracts/2781.html
 [atu]: http://backendconf.ru/2017/abstracts/2784.html
