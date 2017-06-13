@@ -4,7 +4,7 @@ Technologies) conference that took place this week in Skolkovo (a place near
 Moscow) to tell how to use full text search in PostgreSQL. Here are the slides:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/2PF4C2UU37ctLK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 
-&lt;p&gt;My colleagues &lt;a href="http://obartunov.livejournal.com/"&gt;Oleg Bartunov&lt;/a&gt; and &lt;a href="http://akorotkov.github.io/"&gt;Alexander Korotkov&lt;/a&gt; also have been
+&lt;p&gt;My colleagues &lt;a href="http://obartunov.livejournal.com/"&gt;Oleg Bartunov&lt;/a&gt; and &lt;a href="http://akorotkov.github.io/"&gt;Alexander Korotkov&lt;/a&gt; have also been
 invited.  Oleg's talk …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 07 Jun 2017 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-06-07:/rit2017-talk.html</guid></item><item><title>What's new in ZSON v1.1?</title><link>https://afiskon.github.io/zson-v1-1.html</link><description>&lt;p&gt;ZSON v1.1 was released recently. Changes since v1.0:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bugfix: the zson_dict table used to be excluded from backups created via
