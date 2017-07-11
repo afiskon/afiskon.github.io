@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Wed, 07 Jun 2017 17:00:00 +0000</lastBuildDate><item><title>Full Text Search in PostgreSQL (Slides)</title><link>https://afiskon.github.io/rit2017-talk.html</link><description>&lt;p&gt;Recently I've been invited to the &lt;a href="http://ritfest.ru/"&gt;RIT 2017&lt;/a&gt; (Russian Internet
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Tue, 11 Jul 2017 19:40:00 +0000</lastBuildDate><item><title>Data Recovery Using pg_filedump (Slides)</title><link>https://afiskon.github.io/pgday2017-talk.html</link><description>&lt;p&gt;I would like to share the slides for a talk I gave last week at &lt;a href="https://pgday.ru/ru/2017"&gt;PgDay
+2017&lt;/a&gt;:&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/HLJ9ZWTlN9WrrU" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;div style="margin-bottom:5px"&gt;
+
+&lt;p&gt;PgDay is an annual conference hosted by &lt;a href="http://www.dataegret.com/"&gt;DataEgret&lt;/a&gt; in Saint Petersburg.
+The conference is dedicated not only to PostgreSQL, but also MySQL, NoSQL
+solutions, commertical DBMSes, etc.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Tue, 11 Jul 2017 19:40:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-07-11:/pgday2017-talk.html</guid></item><item><title>Full Text Search in PostgreSQL (Slides)</title><link>https://afiskon.github.io/rit2017-talk.html</link><description>&lt;p&gt;Recently I've been invited to the &lt;a href="http://ritfest.ru/"&gt;RIT 2017&lt;/a&gt; (Russian Internet
 Technologies) conference that took place this week in Skolkovo (a place near
 Moscow) to tell how to use full text search in PostgreSQL. Here are the slides:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/2PF4C2UU37ctLK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
