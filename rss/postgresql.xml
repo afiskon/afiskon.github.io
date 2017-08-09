@@ -5,6 +5,7 @@
 
 &lt;div style="margin-bottom:5px"&gt;
 
+&lt;p&gt;Download: &lt;a href="/static/2017/pg-filedump-pgday2017.pdf"&gt;pg-filedump-pgday2017.pdf (193K)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PgDay is an annual conference hosted by &lt;a href="http://www.dataegret.com/"&gt;DataEgret&lt;/a&gt; in Saint Petersburg.
 The conference is dedicated not only to PostgreSQL, but also MySQL, NoSQL
 solutions, commertical DBMSes, etc.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Tue, 11 Jul 2017 19:40:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-07-11:/pgday2017-talk.html</guid></item><item><title>Full Text Search in PostgreSQL (Slides)</title><link>https://afiskon.github.io/rit2017-talk.html</link><description>&lt;p&gt;Recently I've been invited to the &lt;a href="http://ritfest.ru/"&gt;RIT 2017&lt;/a&gt; (Russian Internet
@@ -12,8 +13,8 @@ Technologies) conference that took place this week in Skolkovo (a place near
 Moscow) to tell how to use full text search in PostgreSQL. Here are the slides:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/2PF4C2UU37ctLK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 
-&lt;p&gt;My colleagues &lt;a href="http://obartunov.livejournal.com/"&gt;Oleg Bartunov&lt;/a&gt; and &lt;a href="http://akorotkov.github.io/"&gt;Alexander Korotkov&lt;/a&gt; have also been
-invited.  Oleg's talk …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 07 Jun 2017 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-06-07:/rit2017-talk.html</guid></item><item><title>What's new in ZSON v1.1?</title><link>https://afiskon.github.io/zson-v1-1.html</link><description>&lt;p&gt;ZSON v1.1 was released recently. Changes since v1.0:&lt;/p&gt;
+&lt;p&gt;Download: &lt;a href="/static/2017/postgresql-full-text-search-rit2017.pdf"&gt;postgresql-full-text-search-rit2017.pdf (300K)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My colleagues &lt;a href="http://obartunov.livejournal.com/"&gt;Oleg Bartunov&lt;/a&gt; and &lt;a href="http://akorotkov.github.io/"&gt;Alexander Korotkov&lt;/a&gt; have also …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 07 Jun 2017 17:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-06-07:/rit2017-talk.html</guid></item><item><title>What's new in ZSON v1.1?</title><link>https://afiskon.github.io/zson-v1-1.html</link><description>&lt;p&gt;ZSON v1.1 was released recently. Changes since v1.0:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bugfix: the zson_dict table used to be excluded from backups created via
   pg_dump utility (see &lt;a href="https://github.com/postgrespro/zson/commit/a0d4201e0e3d021d9384a5d0a58c176be4c00735"&gt;a0d4201e&lt;/a&gt; and &lt;a href="https://github.com/postgrespro/zson/commit/e176165bcff308dbeb02f16278f3b56f3f6e02d8"&gt;e176165b&lt;/a&gt;). Reported by Pavel
@@ -28,12 +29,14 @@ still having a jet lag (in my case second day is always the worst one …&lt;/p&
 In case you are interested in this topic here are the slides:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/irpWWe9fSsphif" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 
-&lt;p&gt;There was a video camera in the room so I got a strong feeling that the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Fri, 28 Apr 2017 14:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-28:/testcon2017-talk.html</guid></item><item><title>PGConf.us 2017 "In-core Compression" Talk</title><link>https://afiskon.github.io/pgconf2017-talk.html</link><description>&lt;p&gt;On &lt;a href="https://pgconf.us/conferences/2017"&gt;PGConf.us 2017&lt;/a&gt; Anastasia Lubennikova
+&lt;p&gt;Download: &lt;a href="/static/2017/quality-assurance-in-postgresql-testconf2017.pdf"&gt;quality-assurance-in-postgresql-testconf2017.pdf (2.1M)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There was a video camera in the room so I got …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Fri, 28 Apr 2017 14:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-28:/testcon2017-talk.html</guid></item><item><title>PGConf.us 2017 "In-core Compression" Talk</title><link>https://afiskon.github.io/pgconf2017-talk.html</link><description>&lt;p&gt;On &lt;a href="https://pgconf.us/conferences/2017"&gt;PGConf.us 2017&lt;/a&gt; Anastasia Lubennikova
 and I &lt;a href="https://pgconf.us/conferences/2017/program/proposals/274"&gt;presented&lt;/a&gt; a
 talk "In-core compression: how to shrink your database size in several times".
 The slides for this talk are now &lt;a href="https://www.slideshare.net/afiskon/incore-compression-how-to-shrink-your-database-size-in-several-times"&gt;available on SlideShare&lt;/a&gt;:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/nyLpzTWVMt2SB4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 
+&lt;p&gt;Download: &lt;a href="/static/2017/postgresql-in-core-compression-pgconf2017.pdf"&gt;postgresql-in-core-compression-pgconf2017.pdf (1.1M)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Here is a short description of the talk:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Currently PostgreSQL doesn't compress data in many cases when it's …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 05 Apr 2017 17:40:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-05:/pgconf2017-talk.html</guid></item></channel></rss>
+&lt;p&gt;Currently PostgreSQL doesn't compress data …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 05 Apr 2017 17:40:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-04-05:/pgconf2017-talk.html</guid></item></channel></rss>
