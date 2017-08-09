@@ -55,6 +55,8 @@ slides:
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/mJ9av8zXwUlWwD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+Download: [pg-filedump-pgcon2017.pdf (175K)][dwnl]
+
 Unfortunately, not many PostgreSQL users know about [pg\_filedump utility][fd]
 and that it's capable of restoring data in the format suitable for using in COPY
 FROM queries (the feature I'm the one to blame for). TOAST is currently not
@@ -79,3 +81,4 @@ conference?
 [ya]: https://yandex.com/company/
 [upg]: https://simply.name/upgrading-postgres-to-9.4.html
 [fd]: https://git.postgresql.org/gitweb/?p=pg_filedump.git;a=summary
+[dwnl]: /static/2017/pg-filedump-pgcon2017.pdf

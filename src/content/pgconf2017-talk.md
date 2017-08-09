@@ -11,6 +11,8 @@ The slides for this talk are now [available on SlideShare](https://www.slideshar
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/nyLpzTWVMt2SB4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+Download: [postgresql-in-core-compression-pgconf2017.pdf (1.1M)][dwnl]
+
 Here is a short description of the talk:
 
 > Currently PostgreSQL doesn't compress data in many cases when it's possible
@@ -35,3 +37,5 @@ Slides for previous years could be found there as well.
 UPD: And here is the video:
 
 <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/zzHCg8XOEEM?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
+[dwnl]: /static/2017/postgresql-in-core-compression-pgconf2017.pdf

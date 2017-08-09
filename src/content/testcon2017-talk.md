@@ -10,9 +10,12 @@ In case you are interested in this topic here are the slides:
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/irpWWe9fSsphif" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+Download: [quality-assurance-in-postgresql-testconf2017.pdf (2.1M)][dwnl]
+
 There was a video camera in the room so I got a strong feeling that the
 recording will be available on YouTube shortly. Meanwhile, if you have any
 questions about the conference, the talk or the slides please don't hesitate
 to leave them in the comments section below.
 
 [u1]: http://testconf.ru/
+[dwnl]: /static/2017/quality-assurance-in-postgresql-testconf2017.pdf

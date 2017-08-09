@@ -10,6 +10,8 @@ Moscow) to tell how to use full text search in PostgreSQL. Here are the slides:
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/2PF4C2UU37ctLK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+Download: [postgresql-full-text-search-rit2017.pdf (300K)][dwnl]
+
 My colleagues [Oleg Bartunov][ob] and [Alexander Korotkov][ak] have also been
 invited.  Oleg's talk was [Postgres vs Mongo][pvm] and Alexander's - [Our
 answer to Uber][atu].
@@ -27,3 +29,4 @@ viewers.
 [pvm]: http://backendconf.ru/2017/abstracts/2781.html
 [atu]: http://backendconf.ru/2017/abstracts/2784.html
 [hl]: http://www.highload.ru/
+[dwnl]: /static/2017/postgresql-full-text-search-rit2017.pdf
