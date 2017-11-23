@@ -7,7 +7,8 @@ Slug: about
 Hi! My name is Aleksander Alekseev. I live in Moscow, Russia and I'm a software
 developer.
 
-![Aleksander Alekseev](/static/about.jpg)
+<img alt="Aleksander Alekseev" src="/static/about.jpg"
+  style="display: block; margin: auto;" />
 
 My interests include but are not limited to open source software, functional
 programming, distributed systems, electronics, blogging and
