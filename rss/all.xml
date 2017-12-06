@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Tue, 11 Jul 2017 19:40:00 +0000</lastBuildDate><item><title>Data Recovery Using pg_filedump (Slides)</title><link>https://afiskon.github.io/pgday2017-talk.html</link><description>&lt;p&gt;I would like to share the slides for a talk I gave last week at &lt;a href="https://pgday.ru/ru/2017"&gt;PgDay
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Wed, 06 Dec 2017 15:04:00 +0000</lastBuildDate><item><title>PGConf.ASIA 2017: Impressions, Photos and Slides</title><link>https://afiskon.github.io/pgconf-asia2017-talk.html</link><description>&lt;p&gt;&lt;a href="https://obartunov.livejournal.com/tag/pg"&gt;Oleg Bartunov&lt;/a&gt; and I have been invited to the &lt;a href="http://www.pgconf.asia/EN/2017/"&gt;PGConf.ASIA
+2017&lt;/a&gt; conference that took place 4-6 December in Tokyo, Japan. Both
+of us attended the &lt;a href="http://www.pgconf.asia/EN/2017/day-0-developer-unconference/"&gt;developer unconference&lt;/a&gt;. Also Oleg had an honor to be a
+keynote speaker and I gave a talk "PostgreSQL Sharding and HA: Theory and
+Practice …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 06 Dec 2017 15:04:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-12-06:/pgconf-asia2017-talk.html</guid></item><item><title>Data Recovery Using pg_filedump (Slides)</title><link>https://afiskon.github.io/pgday2017-talk.html</link><description>&lt;p&gt;I would like to share the slides for a talk I gave last week at &lt;a href="https://pgday.ru/ru/2017"&gt;PgDay
 2017&lt;/a&gt;:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/HLJ9ZWTlN9WrrU" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 
