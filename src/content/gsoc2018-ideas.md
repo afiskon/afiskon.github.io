@@ -1,7 +1,7 @@
 Title: PostgreSQL GSoC 2018 ideas
 Category: PostgreSQL
 Date: 2017-12-15 14:30
-Modified: 2017-12-15 14:30
+Modified: 2017-12-15 15:16
 Slug: gsoc2018-ideas
 
 Recently Stephen Frost [called][hackers] in pgsql-hackers@ mailing list for
@@ -14,7 +14,7 @@ Wiki][wiki]).
 source software, not mentioning gaining unique experience. If you are a student
 you should seriusly consider to participate. Also I would like to encourage
 everyone to join the discussion in the mailing list and propose ideas on how
-PostgreSQL can be improved in wiki.
+PostgreSQL can be improved.
 
 ## Project 1. High availability / failover based on logical replication
 
