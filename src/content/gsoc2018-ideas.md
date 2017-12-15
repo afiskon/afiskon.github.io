@@ -63,8 +63,8 @@ The idea of this project is to create a similar extension that would provide
 Thrift support. Some users may prefer Thrift to Protobuf or just use it by
 historical reasons. This project is a bit more complicated than pg\_protobuf
 since unlike Protobuf Thrift supports various encoding protocols. Also the
-extension should provide a tool that generates PL/pgSQL procedures to access
-Thrift data from .thrift files (at time of writing this text similar tool for
+extension should provide a tool that generates from .thrift files PL/pgSQL
+procedures to access Thrift data (at time of writing this text similar tool for
 pg\_protobuf is in development.)
 
 [wiki]: https://wiki.postgresql.org/wiki/GSoC_2018
