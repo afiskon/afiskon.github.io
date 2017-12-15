@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Wed, 06 Dec 2017 15:04:00 +0000</lastBuildDate><item><title>PGConf.ASIA 2017: Impressions, Photos and Slides</title><link>https://afiskon.github.io/pgconf-asia2017-talk.html</link><description>&lt;p&gt;&lt;a href="https://obartunov.livejournal.com/tag/pg"&gt;Oleg Bartunov&lt;/a&gt; and I have been invited to the &lt;a href="http://www.pgconf.asia/EN/2017/"&gt;PGConf.ASIA
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 15 Dec 2017 13:00:00 +0000</lastBuildDate><item><title>pg_protobuf: Protobuf support for PostgreSQL</title><link>https://afiskon.github.io/pg-protobuf.html</link><description>&lt;p&gt;Yesterday I had a few spare hours (I was waiting for 'Star Wars VIII' movie
+session, which BTW turned out to be great) so I decided to implement one idea I
+had in mind for quite some time. The idea is to add support of Protobuf datatype
+to PostgreSQL.&lt;/p&gt;
+&lt;p&gt;The …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Fri, 15 Dec 2017 13:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-12-15:/pg-protobuf.html</guid></item><item><title>PGConf.ASIA 2017: Impressions, Photos and Slides</title><link>https://afiskon.github.io/pgconf-asia2017-talk.html</link><description>&lt;p&gt;&lt;a href="https://obartunov.livejournal.com/tag/pg"&gt;Oleg Bartunov&lt;/a&gt; and I have been invited to the &lt;a href="http://www.pgconf.asia/EN/2017/"&gt;PGConf.ASIA
 2017&lt;/a&gt; conference that took place 4-6 December in Tokyo, Japan. Both
 of us attended the &lt;a href="http://www.pgconf.asia/EN/2017/day-0-developer-unconference/"&gt;developer unconference&lt;/a&gt;. Also Oleg had an honor to be a
 keynote speaker and I gave a talk "PostgreSQL Sharding and HA: Theory and
