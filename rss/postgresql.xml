@@ -2,7 +2,7 @@
 <rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 15 Dec 2017 15:16:00 +0000</lastBuildDate><item><title>PostgreSQL GSoC 2018 ideas</title><link>https://afiskon.github.io/gsoc2018-ideas.html</link><description>&lt;p&gt;Recently Stephen Frost &lt;a href="https://postgr.es/m/20171215031424.GE4628%40tamriel.snowman.net"&gt;called&lt;/a&gt; in pgsql-hackers@ mailing list for
 PostgreSQL-related ideas for Google Summer of Code 2018. I&amp;nbsp;proposed a few ideas
 and offered to be a possible mentor for corresponding projects. In this post I
-wold like to share a brief description of these projects (copied from &lt;a href="https://wiki.postgresql.org/wiki/GSoC_2018"&gt;PostgreSQL
+would like to share a brief description of these projects (copied from &lt;a href="https://wiki.postgresql.org/wiki/GSoC_2018"&gt;PostgreSQL
 Wiki …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Fri, 15 Dec 2017 14:30:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2017-12-15:/gsoc2018-ideas.html</guid></item><item><title>pg_protobuf: Protobuf support for PostgreSQL</title><link>https://afiskon.github.io/pg-protobuf.html</link><description>&lt;p&gt;Yesterday I had a few spare hours (I was waiting for 'Star Wars VIII' movie
 session, which BTW turned out to be great) so I decided to implement one idea I
 had in mind for quite some time. The idea is to add support of Protobuf datatype

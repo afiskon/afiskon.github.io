@@ -8,7 +8,7 @@
 	<meta name="yandex-verification" content="c12e72bb61f3c046" />
 	
 
-	<meta name="description" content="Recently Stephen Frost called in pgsql-hackers@ mailing list for PostgreSQL-related ideas for Google Summer of Code 2018. I proposed a few ideas and offered to be a possible mentor for corresponding projects. In this post I wold like to share a brief description of these projects (copied from PostgreSQL Wiki …">
+	<meta name="description" content="Recently Stephen Frost called in pgsql-hackers@ mailing list for PostgreSQL-related ideas for Google Summer of Code 2018. I proposed a few ideas and offered to be a possible mentor for corresponding projects. In this post I would like to share a brief description of these projects (copied from PostgreSQL Wiki …">
 
 
 	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
@@ -43,16 +43,16 @@
 		<p>Recently Stephen Frost <a href="https://postgr.es/m/20171215031424.GE4628%40tamriel.snowman.net">called</a> in pgsql-hackers@ mailing list for
 PostgreSQL-related ideas for Google Summer of Code 2018. I&nbsp;proposed a few ideas
 and offered to be a possible mentor for corresponding projects. In this post I
-wold like to share a brief description of these projects (copied from <a href="https://wiki.postgresql.org/wiki/GSoC_2018">PostgreSQL
+would like to share a brief description of these projects (copied from <a href="https://wiki.postgresql.org/wiki/GSoC_2018">PostgreSQL
 Wiki</a>).</p>
 <p><a href="https://en.wikipedia.org/wiki/Google_Summer_of_Code">Google Summer of Code</a> is a great opportunity to contribute to free and open
 source software, not mentioning gaining unique experience. If you are a student
-you should seriusly consider to participate. Also I would like to encourage
+you should seriously consider to participate. Also I would like to encourage
 everyone to join the discussion in the mailing list and propose ideas on how
 PostgreSQL can be improved.</p>
 <h2>Project 1. High availability / failover based on logical replication</h2>
 <p>Currently there are plenty HA solutions for PostgreSQL based on physical
-(streaming) replication - patroni, Stolon, RepMgr, and others. Unfortunately
+(streaming) replication - patroni, Stolon, RepMgr, and others. Unfortunately,
 there is no solution that uses logical replication introduced in PostgreSQL 10.
 The main advantage of logical replication over physical replication in this
 context is an ability to upgrade PostgreSQL without a downtime. Also logical
@@ -65,33 +65,33 @@ rebalancing (which is also impossible with physical replication),
 Percolator-like distributed transactions, convenient web-panel, etc. These are
 subjects for further GSoC projects though.</p>
 <h2>Project 2. Thrift datatype support</h2>
-<p>One of advantages of document-oriented databases like MongoDB or Couchbase over
-RDBMSs is an ability to change the data scheme easily, fast and often. The
+<p>One of the advantages of document-oriented databases like MongoDB or Couchbase
+over RDBMSs is an ability to change the data scheme easily, fast and often. The
 traditional approach in RDBMS world involves doing an expensive ALTER TABLE
 operation, slow upgrade of an existing data, and stuff like this. This approach
 is often slow and inconvenient for application developers.</p>
 <p>To solve this issue PostgreSQL provides JSON and JSONB datatypes. Unfortunately
 JSONB has a disadvantage of storing all documents keys, which is a lot of
 redundant data.</p>
-<p>One possibility to to reduce JSONB redundancy is to use <a href="https://afiskon.github.io/zson-v1-1.html">zson</a> extension.
-It compresses JSONB documents using shared dictionary of common strings that
+<p>One possibility to reduce JSONB redundancy is to use <a href="https://afiskon.github.io/zson-v1-1.html">zson</a> extension.  It
+compresses JSONB documents using a shared dictionary of common strings that
 appear in all or most documents. This approach has its limitations though.
 Particularly, since data schema evolves, the dictionary has to be updated from
 time to time. Also zson can affect the build-in mechanism of PostgreSQL of
 compressing data using PGLZ algorithm since this mechanism uses some heuristics
 to recognize data that compresses well. Thus sometimes zson can reduce the
 overall performance.</p>
-<p>There is another extension - <a href="https://afiskon.github.io/pg-protobuf.html">pg_protobuf</a>. Basically it provides
-Protobuf support for PostgreSQL. At time of writing this text pg_protobuf is in
-a proof-of-concept state. However it seems to solve all the issues described
-above and doesn't have any disadvantages of zson extension.</p>
+<p>There is another extension - <a href="https://afiskon.github.io/pg-protobuf.html">pg_protobuf</a>. Basically, it provides
+Protobuf support for PostgreSQL. At the time of writing this text pg_protobuf
+is in a proof-of-concept state. However, it seems to solve all the issues
+described above and doesn't have any disadvantages of zson extension.</p>
 <p>The idea of this project is to create a similar extension that would provide
-Thrift support. Some users may prefer Thrift to Protobuf or just use it by
+Thrift support. Some users may prefer Thrift to Protobuf or just use it for
 historical reasons. This project is a bit more complicated than pg_protobuf
 since unlike Protobuf Thrift supports various encoding protocols. Also the
 extension should provide a tool that generates from .thrift files PL/pgSQL
-procedures to access Thrift data (at time of writing this text similar tool for
-pg_protobuf is in development.)</p>	
+procedures to access Thrift data (at the time of writing this text similar tool
+for pg_protobuf is in development.)</p>	
 
 	</article>
 
