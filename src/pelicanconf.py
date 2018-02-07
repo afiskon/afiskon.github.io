@@ -14,6 +14,8 @@ DEFAULT_LANG = 'en'
 
 DISQUS_SITENAME = 'afiskon'
 
+DEFAULT_DATE_FORMAT = '%d %B %Y'
+
 #DISPLAY_PAGES_ON_MENU = True
 #PAGE_PATHS = ['pages']
 
