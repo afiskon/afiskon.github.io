@@ -19,12 +19,12 @@ Here they are:
 ![PGConf.Russia 2018: Photo 3 of 3](/static/2018/pgconf-russia-2018-3-of-3.jpg)
 
 [PGConf.Russia][pgconf-ru] is a major annual conference which is entirely
-dadicated to PostgreSQL. This year it gathered more than 600 people from around
+dedicated to PostgreSQL. This year it gathered more than 600 people from around
 the world. The conference takes place in Moscow and is hosted by [Postgres
 Professional][pgpro] company.
 
-Another Russian conference woth mentioning is [PGDay.ru][pgday]. Although lately
-it's dadicated to database management systems in general (inclyding MySQL,
+Another Russian conference worth mentioning is [PGDay.ru][pgday]. Although lately
+it's dedicated to database management systems in general (including MySQL,
 Oracle, ElasticSearch, etc) [last year][ly] there were many talks related to
 PostgreSQL. The conference takes place in Saint Petersburg in July and is hosted
 by [Data Egret][de] company. 
