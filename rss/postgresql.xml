@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Fri, 15 Dec 2017 15:16:00 +0000</lastBuildDate><item><title>PostgreSQL GSoC 2018 ideas</title><link>https://afiskon.github.io/gsoc2018-ideas.html</link><description>&lt;p&gt;Recently Stephen Frost &lt;a href="https://postgr.es/m/20171215031424.GE4628%40tamriel.snowman.net"&gt;called&lt;/a&gt; in pgsql-hackers@ mailing list for
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog - PostgreSQL</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Wed, 07 Feb 2018 12:00:00 +0000</lastBuildDate><item><title>PostgreSQL and Compressed Documents (Slides)</title><link>https://afiskon.github.io/pgconf-russia2018-talk.html</link><description>&lt;p&gt;Yesterday I &lt;a href="https://pgconf.ru/2018/107204"&gt;gave a talk&lt;/a&gt; at PGConf.Russia 2018 conference. Here are
+the slides:&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/A1bUQbzqnZ1RCZ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Download: &lt;a href="/static/2018/postgresql-and-compressed-documents-pgconf-russia-2018.pdf"&gt;postgresql-and-compressed-documents-pgconf-russia-2018.pdf (1.1M)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also I would like to share a few random photos I took during the conference.
+Here they are:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PGConf.Russia 2018: Photo 1 of 3" src="/static/2018/pgconf-russia-2018-1-of-3.jpg"&gt;
+&lt;img alt="PGConf.Russia 2018: Photo 2 of 3" src="/static/2018/pgconf-russia-2018-2-of-3.jpg"&gt;
+&lt;img alt="PGConf.Russia 2018: Photo 3 of 3" src="/static/2018/pgconf-russia-2018-3-of-3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pgconf.ru/"&gt;PGConf.Russia&lt;/a&gt; is a major annual conference which is entirely
+dadicated to PostgreSQL …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Wed, 07 Feb 2018 12:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2018-02-07:/pgconf-russia2018-talk.html</guid></item><item><title>PostgreSQL GSoC 2018 ideas</title><link>https://afiskon.github.io/gsoc2018-ideas.html</link><description>&lt;p&gt;Recently Stephen Frost &lt;a href="https://postgr.es/m/20171215031424.GE4628%40tamriel.snowman.net"&gt;called&lt;/a&gt; in pgsql-hackers@ mailing list for
 PostgreSQL-related ideas for Google Summer of Code 2018. I&amp;nbsp;proposed a few ideas
 and offered to be a possible mentor for corresponding projects. In this post I
 would like to share a brief description of these projects (copied from &lt;a href="https://wiki.postgresql.org/wiki/GSoC_2018"&gt;PostgreSQL
