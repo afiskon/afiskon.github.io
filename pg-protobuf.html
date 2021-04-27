@@ -45,39 +45,38 @@ session, which BTW turned out to be great) so I decided to implement one idea I
 had in mind for quite some time. The idea is to add support of Protobuf datatype
 to PostgreSQL.</p>
 <p>The result can be <a href="https://github.com/afiskon/pg_protobuf">found on GitHub</a>. Here is a short example from README.md:</p>
-<div class="highlight"><pre><span></span>create extension pg_protobuf;
+<div class="highlight"><pre><span></span><code><span class="nv">create</span> <span class="nv">extension</span> <span class="nv">pg_protobuf</span><span class="c1">;</span>
 
-create table heroes (x bytea);
+<span class="nv">create</span> <span class="nv">table</span> <span class="nv">heroes</span> <span class="ss">(</span><span class="nv">x</span> <span class="nv">bytea</span><span class="ss">)</span><span class="c1">;</span>
 
-insert into heroes values
-  (E&#39;\\x0a0365617810321880022202100f&#39;),
-  (E&#39;\\x0a07616669736b6f6e10191880082a060a0200011064&#39;)
-  -- ...
-  ;
+<span class="nv">insert</span> <span class="nv">into</span> <span class="nv">heroes</span> <span class="nv">values</span>
+  <span class="ss">(</span><span class="nv">E</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s">x0a0365617810321880022202100f</span><span class="s1">&#39;</span><span class="ss">)</span>,
+  <span class="ss">(</span><span class="nv">E</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s">x0a07616669736b6f6e10191880082a060a0200011064</span><span class="s1">&#39;</span><span class="ss">)</span>
+  <span class="o">--</span> ...
+  <span class="c1">;</span>
 
-create function hero_name(x bytea) returns text as $$
-begin
-return protobuf_get_string(x, 1);
-end
-$$ language &#39;plpgsql&#39; immutable;
+<span class="nv">create</span> <span class="nv">function</span> <span class="nv">hero_name</span><span class="ss">(</span><span class="nv">x</span> <span class="nv">bytea</span><span class="ss">)</span> <span class="nv">returns</span> <span class="nv">text</span> <span class="nv">as</span> $$
+<span class="nv">begin</span>
+<span class="k">return</span> <span class="nv">protobuf_get_string</span><span class="ss">(</span><span class="nv">x</span>, <span class="mi">1</span><span class="ss">)</span><span class="c1">;</span>
+<span class="k">end</span>
+$$ <span class="nv">language</span> <span class="s1">&#39;</span><span class="s">plpgsql</span><span class="s1">&#39;</span> <span class="nv">immutable</span><span class="c1">;</span>
 
-create function hero_hp(x bytea) returns text as $$
-begin
-return protobuf_get_integer(x, 2);
-end
-$$ language &#39;plpgsql&#39; immutable;
+<span class="nv">create</span> <span class="nv">function</span> <span class="nv">hero_hp</span><span class="ss">(</span><span class="nv">x</span> <span class="nv">bytea</span><span class="ss">)</span> <span class="nv">returns</span> <span class="nv">text</span> <span class="nv">as</span> $$
+<span class="nv">begin</span>
+<span class="k">return</span> <span class="nv">protobuf_get_integer</span><span class="ss">(</span><span class="nv">x</span>, <span class="mi">2</span><span class="ss">)</span><span class="c1">;</span>
+<span class="k">end</span>
+$$ <span class="nv">language</span> <span class="s1">&#39;</span><span class="s">plpgsql</span><span class="s1">&#39;</span> <span class="nv">immutable</span><span class="c1">;</span>
 
-create function hero_xp(x bytea) returns text as $$
-begin
-return protobuf_get_integer(x, 3);
-end
-$$ language &#39;plpgsql&#39; immutable;
+<span class="nv">create</span> <span class="nv">function</span> <span class="nv">hero_xp</span><span class="ss">(</span><span class="nv">x</span> <span class="nv">bytea</span><span class="ss">)</span> <span class="nv">returns</span> <span class="nv">text</span> <span class="nv">as</span> $$
+<span class="nv">begin</span>
+<span class="k">return</span> <span class="nv">protobuf_get_integer</span><span class="ss">(</span><span class="nv">x</span>, <span class="mi">3</span><span class="ss">)</span><span class="c1">;</span>
+<span class="k">end</span>
+$$ <span class="nv">language</span> <span class="s1">&#39;</span><span class="s">plpgsql</span><span class="s1">&#39;</span> <span class="nv">immutable</span><span class="c1">;</span>
 
-create index hero_name_idx on heroes using btree(hero_name(x));
+<span class="nv">create</span> <span class="nv">index</span> <span class="nv">hero_name_idx</span> <span class="nv">on</span> <span class="nv">heroes</span> <span class="nv">using</span> <span class="nv">btree</span><span class="ss">(</span><span class="nv">hero_name</span><span class="ss">(</span><span class="nv">x</span><span class="ss">))</span><span class="c1">;</span>
 
-select protobuf_decode(x) from heroes where hero_name(x) = &#39;afiskon&#39;;
-</pre></div>
-
+<span class="nv">select</span> <span class="nv">protobuf_decode</span><span class="ss">(</span><span class="nv">x</span><span class="ss">)</span> <span class="nv">from</span> <span class="nv">heroes</span> <span class="nv">where</span> <span class="nv">hero_name</span><span class="ss">(</span><span class="nv">x</span><span class="ss">)</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="s">afiskon</span><span class="s1">&#39;</span><span class="c1">;</span>
+</code></pre></div>
 
 <p>The extension seems to work and pass basic tests, however more thorough testing
 is required which I'm going to do in nearest few days.</p>

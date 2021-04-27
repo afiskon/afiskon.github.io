@@ -121,16 +121,16 @@ Practice …</p></p>
     <h2>
       <a href="../pgday2017-talk.html" rel="bookmark" title="Permalink to Data Recovery Using pg_filedump (Slides)">Data Recovery Using pg_filedump (Slides)</a>
     </h2>
-    <p><p>I would like to share the slides for a talk I gave last week at <a href="https://pgday.ru/ru/2017">PgDay
-2017</a>:</p>
+    <p><p>I would like to share the slides for a talk I gave last week at [PgDay
+2017][pgday]:</p>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/HLJ9ZWTlN9WrrU" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
 <div style="margin-bottom:5px">
 
-<p>Download: <a href="/static/2017/pg-filedump-pgday2017.pdf">pg-filedump-pgday2017.pdf (193K)</a></p>
-<p>PgDay is an annual conference hosted by <a href="http://www.dataegret.com/">DataEgret</a> in Saint Petersburg.
+Download: [pg-filedump-pgday2017.pdf (193K)][dwnl]
+
+PgDay is an annual conference hosted by [DataEgret][de] in Saint Petersburg.
 The conference is dedicated not only to PostgreSQL, but also MySQL, NoSQL
-solutions, commertical DBMSes, etc.</p></p>
+solutions, commertical DBMSes …</div></p>
   </div>
 </article><article class="summary">
 <div class="metadata">
@@ -188,7 +188,7 @@ still having a jet lag (in my case second day is always the worst one …</p></p
     </h2>
     <p><p>TIL that GCC <a href="https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Pragmas.html">allows</a> to suppress a given type of warnings in a single line of
 code. Here is an example:</p>
-<div class="highlight"><pre><span></span><span class="n">InMemoryStorage</span><span class="o">::</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span><code><span class="n">InMemoryStorage</span><span class="o">::</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">if</span><span class="p">(</span><span class="n">pthread_rwlock_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">_rwlock</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
         <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;pthread_rwlock_init() failed&quot;</span><span class="p">);</span>
 <span class="p">}</span>
@@ -196,7 +196,7 @@ code. Here is an example:</p>
 <span class="n">InMemoryStorage</span><span class="o">::~</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">if</span><span class="p">(</span><span class="n">pthread_rwlock_destroy</span><span class="p">(</span><span class="o">&amp;</span><span class="n">_rwlock</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
         <span class="c1">// suppress &#39;throw will always call terminate() [-Wterminate]&#39;</span>
-        <span class="cp">#pragma GCC diagnostic push …</span></pre></div></p>
+        <span class="cp">#pragma GCC diagnostic push …</span></code></pre></div></p>
   </div>
 </article>
 <div class="pagination">

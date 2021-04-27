@@ -46,25 +46,22 @@ Touch and restore Android on your smartphone. </p>
 was occam-lmy48t-factory-c43c7cfd.zip since my smarphone is Nexus 4.</p>
 <p>Secondly, make sure you have <code>adb</code> tool installed. I personnaly use Arch Linux
 where this tool is part of android-tools package:</p>
-<div class="highlight"><pre><span></span>$ sudo pacman -S android-tools
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ sudo pacman -S android-tools
+</code></pre></div>
 
 <p>Now on your smarphone go to System Settings -&gt; About -&gt; Developer Mode and enable
 the developer mode. Make sure your smarphone is visiable in <code>adb devices</code>:</p>
-<div class="highlight"><pre><span></span>$ adb devices
+<div class="highlight"><pre><span></span><code>$ adb devices
 List of devices attached
 04edbc16db97b0a8    device
-</pre></div>
-
+</code></pre></div>
 
 <p>Afterwards say:</p>
-<div class="highlight"><pre><span></span>$ adb reboot bootloader
-$ unzip occam-lmy48t-factory-c43c7cfd.zip
-$ <span class="nb">cd</span> occam-lmy48t
-$ sudo ./flash-all.sh
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="o">$</span> <span class="n">adb</span> <span class="n">reboot</span> <span class="n">bootloader</span>
+<span class="o">$</span> <span class="n">unzip</span> <span class="n">occam</span><span class="o">-</span><span class="n">lmy48t</span><span class="o">-</span><span class="n">factory</span><span class="o">-</span><span class="n">c43c7cfd</span><span class="o">.</span><span class="n">zip</span>
+<span class="o">$</span> <span class="n">cd</span> <span class="n">occam</span><span class="o">-</span><span class="n">lmy48t</span>
+<span class="o">$</span> <span class="n">sudo</span> <span class="o">./</span><span class="n">flash</span><span class="o">-</span><span class="n">all</span><span class="o">.</span><span class="n">sh</span>
+</code></pre></div>
 
 <p>That's it!</p>	
 
