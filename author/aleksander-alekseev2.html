@@ -34,6 +34,26 @@
 
 <article class="summary">
 <div class="metadata">
+  <time datetime="2017-05-04T17:45:00+00:00" pubdate>04 May 2017</time>
+  in <a href="../category/general.html">General</a>
+</div>  <div>
+    <h2>
+      <a href="../gcc-suppress-single-warning.html" rel="bookmark" title="Permalink to GCC: How To Suppress a Warning in a Single Line of Code">GCC: How To Suppress a Warning in a Single Line of Code</a>
+    </h2>
+    <p><p>TIL that GCC <a href="https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Pragmas.html">allows</a> to suppress a given type of warnings in a single line of
+code. Here is an example:</p>
+<div class="highlight"><pre><span></span><code><span class="n">InMemoryStorage</span><span class="o">::</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">pthread_rwlock_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">_rwlock</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;pthread_rwlock_init() failed&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">InMemoryStorage</span><span class="o">::~</span><span class="n">InMemoryStorage</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">pthread_rwlock_destroy</span><span class="p">(</span><span class="o">&amp;</span><span class="n">_rwlock</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// suppress &#39;throw will always call terminate() [-Wterminate]&#39;</span>
+        <span class="cp">#pragma GCC diagnostic push …</span></code></pre></div></p>
+  </div>
+</article><article class="summary">
+<div class="metadata">
   <time datetime="2017-04-28T14:00:00+00:00" pubdate>28 April 2017</time>
   in <a href="../category/postgresql.html">PostgreSQL</a>
 </div>  <div>

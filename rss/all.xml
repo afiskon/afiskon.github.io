@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Mon, 04 Jun 2018 12:00:00 +0000</lastBuildDate><item><title>PGCon 2018: Slides and Photos</title><link>https://afiskon.github.io/pgcon2018.html</link><description>&lt;p&gt;At PGCon 2018 that took place last week (29.05-01.06) my colleague Anastasia and
+<rss version="2.0"><channel><title>Aleksander Alekseev's blog</title><link>https://afiskon.github.io/</link><description></description><lastBuildDate>Thu, 17 Jun 2021 18:00:00 +0000</lastBuildDate><item><title>How (and why) to become a PostgreSQL contributor</title><link>https://afiskon.github.io/pg-contribute.html</link><description>&lt;p&gt;Contributing to open-source projects can be intimidating –
+and PostgreSQL is no exception. As a Postgres contributor, I share
+my hard-earned tips to help you make your first contribution
+(or contribute more).&lt;/p&gt;
+&lt;p&gt;The article is published in Timescale blog:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tsdb.co/pg-contribute"&gt;How (and why) to become a PostgreSQL contributor&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aleksander Alekseev</dc:creator><pubDate>Thu, 17 Jun 2021 18:00:00 +0000</pubDate><guid isPermaLink="false">tag:afiskon.github.io,2021-06-17:/pg-contribute.html</guid><category>PostgreSQL</category></item><item><title>PGCon 2018: Slides and Photos</title><link>https://afiskon.github.io/pgcon2018.html</link><description>&lt;p&gt;At PGCon 2018 that took place last week (29.05-01.06) my colleague Anastasia and
 I &lt;a href="https://www.pgcon.org/2018/schedule/events/1147.en.html"&gt;gave a talk&lt;/a&gt; "Growing up new PostgreSQL developers: On teaching
 students, team leading, project management and stuff". Here are the slides:&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/IXeYFt9PVvFme8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
